@@ -1,0 +1,12 @@
+'''
+Created on 2017年6月6日
+
+@author: yushao
+'''
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n*factorial(n-1)
+    
+print 10
