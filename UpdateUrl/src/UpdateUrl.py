@@ -16,6 +16,7 @@ for di in dicts:
     if "not update" in di:
         continue
     else: 
+      sys.stdout.flush()
       url = di
       print (url)
       
@@ -24,4 +25,3 @@ for di in dicts:
       print(response.info())   
       print(response.geturl())  
       print(response.getcode())
-      sys.stdout.flush()
